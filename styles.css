@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .portada {
+    text-align: center;
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+  }
+  
+  .portada img {
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  .tema {
+    margin: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .carrusel {
+    display: flex;
+    overflow-x: scroll;
+    gap: 10px;
+    padding: 10px 0;
+  }
+  
+  .carrusel img {
+    width: 450px;
+    height: auto;
+    border-radius: 8px;
+    flex-shrink: 0;
+  }
+  
+  a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .conclusion {
+    margin: 40px;
+    padding: 20px;
+    background-color: #e8f0fe;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .img-conclusion {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 15px 0;
+  }
+  
+  .footer {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer .logos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .footer .logos img {
+    width: 80px;
+    height: auto;
+  }
+  
